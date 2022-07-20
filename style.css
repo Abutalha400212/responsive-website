@@ -1,4 +1,5 @@
 /* top titles */
+/* First Page */
 body {
     font-family: 'Albert Sans', sans-serif;
 }
@@ -11,7 +12,7 @@ main {
 
 .top {
     display: flex;
-    background:linear-gradient( rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.068)) black;
+    background-color:rgba(0, 0, 0, 0.822);
     color: white;
     border-radius: 20px;
 
@@ -40,8 +41,10 @@ main {
     border: none;
     color: aliceblue;
 }
+/* hedaer line end */
+/* main start */
 .break{
-    padding-left: 100px;
+    padding-left: 30px;
 }
 .top-match{
     display: flex;
@@ -61,6 +64,7 @@ main {
 .matches h2{
     font-size: 20px;
 }
+
 .matches button{
     margin: 10px;
 }
@@ -72,6 +76,10 @@ main {
     text-align: center;
     border-radius: 10px;
 }
+.match .color{
+    background-color: rgb(255, 0, 0); 
+    color: white;
+ }
 .match a{
     display: block;
     background-color: aliceblue;
@@ -87,6 +95,8 @@ border-radius: 5px;
 .match p{
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* main End */
+
 footer{
     background:linear-gradient( rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.144)) black;
     color: white;
@@ -96,7 +106,7 @@ footer{
     padding-bottom: 50px;
 }
 footer hr{
-    width: 70%;
+    width: 60%;
 }
 ul{
     list-style: none;
@@ -106,4 +116,48 @@ ul{
 }
 li{
     padding-left:40px;
+}
+/* First Website End */
+/* second Website Start */
+.Shedule{
+    display: grid;
+    grid-template-columns: 3,1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+.flag{
+    display: flex;
+}
+.flag img{
+    width: 80px;
+}
+.flag p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.up{
+    text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+ padding: 10px 20px;
+ border-radius: 5px;
+}
+.top-match{
+    position: relative;
+    top: 100px;
+    
+}
+.time h3{
+    font-family: 'Gill Sans';
+    font-size: 16px;
+}
+.time p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+.fa-brands{
+    margin-left: 8px;
+  
+}
+.fa-brands:hover{
+    color:red;
 }
