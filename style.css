@@ -48,7 +48,7 @@ main {
 }
 .top-match{
     display: flex;
-    padding-top: 50px;
+
 }
 .container{
     display: grid;
@@ -57,21 +57,20 @@ main {
     grid-row-gap: 10px;
 }
 .matches img{
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius:10px ;
+    width: 90%;
+   border-radius: 5px;
 }
 .matches h2{
-    font-size: 20px;
+    font-size: 16px;
 }
-
 .matches button{
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 .match{
     max-height: 170px;
     background: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 10px;
     margin-right: 20px;
     text-align: center;
     border-radius: 10px;
@@ -96,7 +95,7 @@ border-radius: 5px;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* main End */
-
+/* footer start */
 footer{
     background:linear-gradient( rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.144)) black;
     color: white;
@@ -117,6 +116,7 @@ ul{
 li{
     padding-left:40px;
 }
+/* footer end */
 /* First Website End */
 /* second Website Start */
 .Shedule{
@@ -141,23 +141,88 @@ li{
  padding: 10px 20px;
  border-radius: 5px;
 }
-.top-match{
-    position: relative;
-    top: 100px;
-    
-}
 .time h3{
     font-family: 'Gill Sans';
     font-size: 16px;
+}
+.top-match{
+    position: relative;
+    top: 100px;
 }
 .time p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
 .fa-brands{
+    color: white;
     margin-left: 8px;
   
 }
 .fa-brands:hover{
     color:red;
+}
+/* Total End */
+@media (max-width: 575.98px) { 
+
+
+
+ }
+@media (min-width: 577px) and (max-width: 768px) { 
+main{
+    width: 100%;
+    height: 100vh;
+    margin-left: 10px;
+    padding: 0;
+}
+.top-match{
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+ }
+ .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;}
+.match{
+width: 100%;
+justify-content: center;
+display: flex;
+background:none; 
+position: relative; 
+left: 0%;
+top:0%
+}
+.match p{
+    font-size: 30px;
+}
+.title{
+    position: relative;
+    left: 80px;
+}
+.match{
+text-align: center;
+ border-radius: 10px;
+}
+.match p a{
+margin-left: 5px;
+}
+footer{
+    background:linear-gradient( rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.144)) black;
+    color: white;
+    text-align: center;
+    margin-top: 1200px;
+    
+}
+.title-img{
+    width: 60%;
+}
+.up{
+    text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+ padding: 10px 20px;
+ border-radius: 5px;
+}
+.flag{
+    justify-content: center;
+}
 }
