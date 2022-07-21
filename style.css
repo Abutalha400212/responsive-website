@@ -1,3 +1,4 @@
+/* bismillahir rahmanir rahim */
 /* top titles */
 /* First Page */
 body {
@@ -7,17 +8,19 @@ body {
 main {
     width: 70%;
     height: 100vh;
-    padding-left: 200px;
+    margin-left: 100px;
+    padding: 0px 50px;
 }
 
 .top {
     display: flex;
-    background-color:rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.822);
     color: white;
     border-radius: 20px;
 
 }
-.title{
+
+.title {
     position: relative;
     left: 150px;
     color: white;
@@ -28,9 +31,11 @@ main {
     font-size: 40px;
     font-weight: 700px;
 }
-.title-img{
+
+.title-img {
     width: 50%;
 }
+
 .title p {
     font-family: cursive;
 }
@@ -41,188 +46,338 @@ main {
     border: none;
     color: aliceblue;
 }
+
 /* hedaer line end */
 /* main start */
-.break{
+.break {
     padding-left: 30px;
 }
-.top-match{
+
+.top-match {
     display: flex;
+    justify-content: space-evenly;
 
 }
-.container{
+
+.container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    grid-row-gap: 10px;
+    grid-row-gap: 5px;
+    width: 70%;
 }
-.matches img{
-    width: 90%;
-   border-radius: 5px;
+
+.matches img {
+    width: 100%;
+    border-radius: 5px;
 }
-.matches h2{
+
+.matches h2 {
     font-size: 16px;
 }
-.matches button{
+
+.matches button {
     margin-left: 10px;
     margin-top: 5px;
 }
-.match{
-    max-height: 170px;
-    background: rgb(0, 0, 0);
-    padding: 10px;
-    margin-right: 20px;
+
+.match {
+    max-height: 200px;
+    padding: 0 10px;
+    background: black;
     text-align: center;
     border-radius: 10px;
 }
-.match .color{
-    background-color: rgb(255, 0, 0); 
+
+.match .color {
+    background-color: rgb(255, 0, 0);
     color: white;
- }
-.match a{
+}
+
+.match a {
     display: block;
     background-color: aliceblue;
-    top: 10px;
     text-decoration: none;
-border-radius: 5px;
-   padding: 5px 30px;  
-   color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
 }
-.highlight{
+
+.highlight {
     background-color: rgb(0, 0, 0);
 }
-.match p{
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+
 /* main End */
 /* footer start */
-footer{
-    background:linear-gradient( rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.144)) black;
+footer {
+    background: linear-gradient(rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.144)) black;
     color: white;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 600px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-footer hr{
+
+footer hr {
     width: 60%;
 }
-ul{
+
+footer ul {
     list-style: none;
     display: flex;
     justify-content: center;
     padding-top: 10px;
 }
-li{
-    padding-left:40px;
+
+li {
+    padding-left: 40px;
 }
+
+.hide {
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
 /* footer end */
 /* First Website End */
 /* second Website Start */
-.Shedule{
+.Shedule {
     display: grid;
-    grid-template-columns: 3,1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 20px;
 }
-.flag{
+
+.flag {
     display: flex;
 }
-.flag img{
+
+.flag img {
     width: 80px;
 }
-.flag p{
+
+.flag p {
     margin-left: 5px;
     margin-right: 5px;
 }
-.up{
+
+.up {
     text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.192);
- padding: 10px 20px;
- border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    padding: 10px 20px;
+    border-radius: 5px;
 }
-.time h3{
+
+.time h3 {
     font-family: 'Gill Sans';
     font-size: 16px;
 }
-.top-match{
+
+.top-match {
     position: relative;
-    top: 100px;
+    top: 50px;
 }
-.time p{
+
+.time p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
 }
-.fa-brands{
+
+.fa-brands {
     color: white;
     margin-left: 8px;
-  
+
 }
-.fa-brands:hover{
-    color:red;
+
+.fa-brands:hover {
+    color: red;
 }
+
+
 /* Total End */
-@media (max-width: 575.98px) { 
 
+/* In Acoount of Mobile Screen */
+@media (max-width: 575.98px) {
 
+    main {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 0;
+    }
 
- }
-@media (min-width: 577px) and (max-width: 768px) { 
-main{
-    width: 100%;
-    height: 100vh;
-    margin-left: 10px;
-    padding: 0;
+    .matches {
+        text-align: center;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+        position: relative;
+        left: 0px;
+    }
+
+    .title p {
+        font-size: 15px;
+    }
+
+    .title-img {
+        position: relative;
+        left: 0%;
+        right: 0%;
+    }
+
+    .match {
+        width: 60%;
+        margin-bottom: 50px;
+        background: none;
+    }
+
+    .top-match {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Shedule {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .up {
+        width: 40vh;
+        height: 100%;
+        position: relative;
+        margin-left: 0;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .flag {
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    footer {
+        background: linear-gradient(rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.144)) black;
+        color: white;
+        margin-top: 2500px;
+        width: 100%;
+    }
+
+    footer ul li {
+        padding-top: 5px;
+
+    }
+
+    footer ul {
+        flex-direction: column;
+        padding: 0px 80px;
+        width: 60%;
+
+    }
+
+    .hide {
+        visibility: hidden;
+    }
+
 }
-.top-match{
-    flex-direction: column;
-    padding: 0%;
-    margin: 0%;
- }
- .container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 20px;}
-.match{
-width: 100%;
-justify-content: center;
-display: flex;
-background:none; 
-position: relative; 
-left: 0%;
-top:0%
+/* in Account of tablet Screen */
+@media (min-width: 577px) and (max-width:768px) {
+    main {
+        width: 100%;
+        height: 100vh;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .top-match {
+        flex-direction: column;
+    }
+
+    .container {
+        display: grid;
+        margin-left: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .Shedule {
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .match {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        background: none;
+        position: relative;
+        left: 0%;
+        top: 0%
+    }
+
+    .match p a {
+        font-size: 20px;
+    }
+
+    .match {
+        border-radius: 10px;
+    }
+
+    .match p {
+        margin-left: 10px;
+        border: 1 px solid rgba(0, 0, 0, 0.747);
+    }
+
+    footer {
+        background: linear-gradient(rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.144)) black;
+        color: white;
+        padding: 50px 0px;
+        margin-top: 1200px;
+    }
+
+    .title {
+        position: relative;
+        left: 70px;
+    }
+
+    .title-img {
+        width: 60%;
+    }
+
+    .hide {
+        visibility: visible;
+        margin-top: 100px;
+        margin-left: 320px;
+        color: white;
+    }
+
+    .up {
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.192);
+        border-radius: 5px;
+        margin-right: 30px;
+    }
+
+    .flag {
+        justify-content: center;
+
+    }
 }
-.match p{
-    font-size: 30px;
-}
-.title{
-    position: relative;
-    left: 80px;
-}
-.match{
-text-align: center;
- border-radius: 10px;
-}
-.match p a{
-margin-left: 5px;
-}
-footer{
-    background:linear-gradient( rgba(255, 255, 255, 0.26),rgba(255, 255, 255, 0.144)) black;
-    color: white;
-    text-align: center;
-    margin-top: 1200px;
-    
-}
-.title-img{
-    width: 60%;
-}
-.up{
-    text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.192);
- padding: 10px 20px;
- border-radius: 5px;
-}
-.flag{
-    justify-content: center;
-}
-}
+
+/* thanks For giving this */
